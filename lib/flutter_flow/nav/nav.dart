@@ -348,20 +348,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'UploadStudyMaterial',
           path: '/shareMaterial',
           builder: (context, params) => const UploadStudyMaterialWidget(),
-        ),
-        FFRoute(
-          name: 'Experiment',
-          path: '/experiment',
-          requireAuth: true,
-          builder: (context, params) => const ExperimentWidget(),
-        ),
-        FFRoute(
-          name: 'Experiment2',
-          path: '/experiment2',
-          builder: (context, params) => Experiment2Widget(
-            reference1: params.getParam('reference1',
-                ParamType.DocumentReference, false, ['translations']),
-          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

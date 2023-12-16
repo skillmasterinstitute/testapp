@@ -37,5 +37,3 @@ export '/video_view/video_view_widget.dart' show VideoViewWidget;
 export '/video_player/video_player_widget.dart' show VideoPlayerWidget;
 export '/upload_study_material/upload_study_material_widget.dart'
     show UploadStudyMaterialWidget;
-export '/experiment/experiment_widget.dart' show ExperimentWidget;
-export '/experiment2/experiment2_widget.dart' show Experiment2Widget;

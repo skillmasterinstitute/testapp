@@ -223,12 +223,6 @@ final parametersBuilderMap =
         },
       ),
   'UploadStudyMaterial': ParameterData.none(),
-  'Experiment': ParameterData.none(),
-  'Experiment2': (data) async => ParameterData(
-        allParams: {
-          'reference1': getParameter<DocumentReference>(data, 'reference1'),
-        },
-      ),
 };
 
 Map<String, dynamic> getInitialParameterData(Map<String, dynamic> data) {

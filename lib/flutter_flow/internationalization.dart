@@ -1562,40 +1562,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'hi': '',
     },
   },
-  // Experiment
-  {
-    '1r11shzv': {
-      'en': 'Label here...',
-      'hi': '',
-    },
-    'q7c7162x': {
-      'en': 'Button',
-      'hi': '',
-    },
-    'zo4o1pmp': {
-      'en': 'WhatsApp Us',
-      'hi': '',
-    },
-    'vrndz867': {
-      'en': 'Page Title',
-      'hi': '',
-    },
-    'c48a7rhx': {
-      'en': 'Home',
-      'hi': '',
-    },
-  },
-  // Experiment2
-  {
-    'sivg11hk': {
-      'en': 'Page Title',
-      'hi': '',
-    },
-    'br8gdyia': {
-      'en': 'Home',
-      'hi': '',
-    },
-  },
   // changePhoto
   {
     '08b7z052': {

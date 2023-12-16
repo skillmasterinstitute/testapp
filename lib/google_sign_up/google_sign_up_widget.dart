@@ -324,16 +324,25 @@ class _GoogleSignUpWidgetState extends State<GoogleSignUpWidget>
                 alignment: const AlignmentDirectional(0.0, -1.0),
                 child: Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(0.0, 150.0, 0.0, 0.0),
-                  child: Container(
-                    width: MediaQuery.sizeOf(context).width * 0.75,
-                    height: MediaQuery.sizeOf(context).width * 0.75,
-                    clipBehavior: Clip.antiAlias,
-                    decoration: const BoxDecoration(
-                      shape: BoxShape.circle,
-                    ),
-                    child: Image.asset(
-                      'assets/images/CITS_Exam_Logo_transparent.png',
-                      fit: BoxFit.cover,
+                  child: InkWell(
+                    splashColor: Colors.transparent,
+                    focusColor: Colors.transparent,
+                    hoverColor: Colors.transparent,
+                    highlightColor: Colors.transparent,
+                    onLongPress: () async {
+                      context.pushNamed('PhoneLogin');
+                    },
+                    child: Container(
+                      width: MediaQuery.sizeOf(context).width * 0.75,
+                      height: MediaQuery.sizeOf(context).width * 0.75,
+                      clipBehavior: Clip.antiAlias,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                      ),
+                      child: Image.asset(
+                        'assets/images/CITS_Exam_Logo_transparent.png',
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ),
