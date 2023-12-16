@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080321561400",
+    "project_id": "iti-cits-tests",
+    "storage_bucket": "iti-cits-tests.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080321561400:android:96ee78599787bdae7d27cd",
+        "android_client_info": {
+          "package_name": "com.smi.bhr01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu9QtzJFEBqfh1duGt1sDHEhR2Od3BbuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
