@@ -25,7 +25,7 @@ export '/reported_questions/reported_questions_widget.dart'
 export '/dashboard/dashboard_widget.dart' show DashboardWidget;
 export '/create_feedback/create_feedback_widget.dart' show CreateFeedbackWidget;
 export '/student_page/student_page_widget.dart' show StudentPageWidget;
-export '/sign_up/sign_up_widget.dart' show SignUpWidget;
+export '/google_sign_up/google_sign_up_widget.dart' show GoogleSignUpWidget;
 export '/fast2sms/fast2sms_widget.dart' show Fast2smsWidget;
 export '/fastotp/fastotp_widget.dart' show FastotpWidget;
 export '/study_material/study_material_widget.dart' show StudyMaterialWidget;

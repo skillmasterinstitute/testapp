@@ -9,19 +9,19 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:provider/provider.dart';
-import 'sign_up_model.dart';
-export 'sign_up_model.dart';
+import 'google_sign_up_model.dart';
+export 'google_sign_up_model.dart';
 
-class SignUpWidget extends StatefulWidget {
-  const SignUpWidget({super.key});
+class GoogleSignUpWidget extends StatefulWidget {
+  const GoogleSignUpWidget({super.key});
 
   @override
-  _SignUpWidgetState createState() => _SignUpWidgetState();
+  _GoogleSignUpWidgetState createState() => _GoogleSignUpWidgetState();
 }
 
-class _SignUpWidgetState extends State<SignUpWidget>
+class _GoogleSignUpWidgetState extends State<GoogleSignUpWidget>
     with TickerProviderStateMixin {
-  late SignUpModel _model;
+  late GoogleSignUpModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -78,7 +78,7 @@ class _SignUpWidgetState extends State<SignUpWidget>
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => SignUpModel());
+    _model = createModel(context, () => GoogleSignUpModel());
 
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }

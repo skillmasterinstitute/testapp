@@ -80,14 +80,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) => _RouteErrorBuilder(
         state: state,
-        child: appStateNotifier.loggedIn ? const NavBarPage() : const ExperimentWidget(),
+        child: appStateNotifier.loggedIn ? const NavBarPage() : const GoogleSignUpWidget(),
       ),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
           builder: (context, _) =>
-              appStateNotifier.loggedIn ? const NavBarPage() : const ExperimentWidget(),
+              appStateNotifier.loggedIn ? const NavBarPage() : const GoogleSignUpWidget(),
         ),
         FFRoute(
           name: 'HomePage',
@@ -277,9 +277,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ),
         ),
         FFRoute(
-          name: 'SignUp',
-          path: '/signUp',
-          builder: (context, params) => const SignUpWidget(),
+          name: 'GoogleSignUp',
+          path: '/googleSignUp',
+          builder: (context, params) => const GoogleSignUpWidget(),
         ),
         FFRoute(
           name: 'fast2sms',
@@ -352,6 +352,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'Experiment',
           path: '/experiment',
+          requireAuth: true,
           builder: (context, params) => const ExperimentWidget(),
         ),
         FFRoute(
@@ -528,7 +529,7 @@ class FFRoute {
 
           if (requireAuth && !appStateNotifier.loggedIn) {
             appStateNotifier.setRedirectLocationIfUnset(state.location);
-            return '/experiment';
+            return '/googleSignUp';
           }
           return null;
         },

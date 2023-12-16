@@ -1216,7 +1216,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'hi': '',
     },
   },
-  // SignUp
+  // GoogleSignUp
   {
     'dnnq0ivh': {
       'en': 'Continue to Sign up for free',

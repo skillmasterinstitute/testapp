@@ -246,7 +246,7 @@ class _ProfilePageWidgetState extends State<ProfilePageWidget>
                                     }
 
                                     context.goNamedAuth(
-                                        'SignUp', context.mounted);
+                                        'GoogleSignUp', context.mounted);
                                   },
                                   text: FFLocalizations.of(context).getText(
                                     'uuajt3cx' /* Log Out */,

@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'sign_up_widget.dart' show SignUpWidget;
+import 'google_sign_up_widget.dart' show GoogleSignUpWidget;
 import 'package:flutter/material.dart';
 
-class SignUpModel extends FlutterFlowModel<SignUpWidget> {
+class GoogleSignUpModel extends FlutterFlowModel<GoogleSignUpWidget> {
   ///  State fields for stateful widgets in this page.
 
   final unfocusNode = FocusNode();

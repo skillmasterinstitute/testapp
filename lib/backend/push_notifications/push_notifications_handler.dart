@@ -186,7 +186,7 @@ final parametersBuilderMap =
           'refrence': getParameter<DocumentReference>(data, 'refrence'),
         },
       ),
-  'SignUp': ParameterData.none(),
+  'GoogleSignUp': ParameterData.none(),
   'fast2sms': ParameterData.none(),
   'fastotp': (data) async => ParameterData(
         allParams: {
