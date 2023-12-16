@@ -5,13 +5,11 @@ import '/flutter_flow/flutter_flow_expanded_image_view.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/admob_util.dart' as admob;
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:octo_image/octo_image.dart';
 import 'package:provider/provider.dart';
 import 'student_page_model.dart';
 export 'student_page_model.dart';
@@ -171,17 +169,9 @@ class _StudentPageWidgetState extends State<StudentPageWidget>
                                                 type: PageTransitionType.fade,
                                                 child:
                                                     FlutterFlowExpandedImageView(
-                                                  image: OctoImage(
-                                                    placeholderBuilder:
-                                                        OctoPlaceholder
-                                                            .blurHash(
-                                                      'https://o2osell.com/oc/img/male_default_dp.png?1596813981',
-                                                    ),
-                                                    image:
-                                                        CachedNetworkImageProvider(
-                                                      studentPageUserRecord
-                                                          .photoUrl,
-                                                    ),
+                                                  image: Image.network(
+                                                    studentPageUserRecord
+                                                        .photoUrl,
                                                     fit: BoxFit.contain,
                                                   ),
                                                   allowRotation: false,
@@ -198,16 +188,8 @@ class _StudentPageWidgetState extends State<StudentPageWidget>
                                             child: ClipRRect(
                                               borderRadius:
                                                   BorderRadius.circular(60.0),
-                                              child: OctoImage(
-                                                placeholderBuilder:
-                                                    OctoPlaceholder.blurHash(
-                                                  'https://o2osell.com/oc/img/male_default_dp.png?1596813981',
-                                                ),
-                                                image:
-                                                    CachedNetworkImageProvider(
-                                                  studentPageUserRecord
-                                                      .photoUrl,
-                                                ),
+                                              child: Image.network(
+                                                studentPageUserRecord.photoUrl,
                                                 width: 100.0,
                                                 height: 100.0,
                                                 fit: BoxFit.fitWidth,

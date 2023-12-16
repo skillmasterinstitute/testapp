@@ -101,7 +101,6 @@ dependencies:
   lottie: 2.7.0
   material: ^1.0.0+2
   mime_type: ^1.0.0
-  octo_image: 1.0.2
   page_transition: 2.1.0
   path_provider: 2.0.14
   path_provider_android: 2.0.25

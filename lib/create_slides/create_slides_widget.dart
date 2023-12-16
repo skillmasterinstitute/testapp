@@ -7,7 +7,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/form_field_controller.dart';
 import '/flutter_flow/upload_data.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -246,13 +245,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord!.image1,
+                                            child: Image.network(
+                                              columnSliderRecord!.image1,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -767,13 +761,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image2,
+                                            child: Image.network(
+                                              columnSliderRecord.image2,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -1288,13 +1277,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image3,
+                                            child: Image.network(
+                                              columnSliderRecord.image3,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -1809,13 +1793,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image4,
+                                            child: Image.network(
+                                              columnSliderRecord.image4,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -2330,13 +2309,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image5,
+                                            child: Image.network(
+                                              columnSliderRecord.image5,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -2851,13 +2825,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image6,
+                                            child: Image.network(
+                                              columnSliderRecord.image6,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -3372,13 +3341,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image7,
+                                            child: Image.network(
+                                              columnSliderRecord.image7,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -3893,13 +3857,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image8,
+                                            child: Image.network(
+                                              columnSliderRecord.image8,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -4414,13 +4373,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image9,
+                                            child: Image.network(
+                                              columnSliderRecord.image9,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
@@ -4935,13 +4889,8 @@ class _CreateSlidesWidgetState extends State<CreateSlidesWidget> {
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(8.0),
-                                            child: CachedNetworkImage(
-                                              fadeInDuration:
-                                                  const Duration(milliseconds: 500),
-                                              fadeOutDuration:
-                                                  const Duration(milliseconds: 500),
-                                              imageUrl:
-                                                  columnSliderRecord.image10,
+                                            child: Image.network(
+                                              columnSliderRecord.image10,
                                               width: 300.0,
                                               height: 200.0,
                                               fit: BoxFit.cover,
